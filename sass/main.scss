@@ -138,3 +138,39 @@
     }
 }
 
+.lh1{
+    line-height: 1px;
+}
+//红色
+.c-8b5146{
+color: #8b5146;
+}
+.fz50{
+    font-size: vw(50);
+}
+.cee{
+    color: #eeeeee;
+}
+//灰色
+.c-9f957c{
+    color: #9f957c;
+}
+//绿色
+.c-605831{
+    color: #605831;
+}
+.fz100{
+    font-size: vw(100);
+}
+.doc-info-img{
+    width: 100%;
+    min-height:vw(1000);
+    background-color: #fff6cf;
+    img{
+        width: vw(320);
+        min-height: vw(420);
+        display: block;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+}
