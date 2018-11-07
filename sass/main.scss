@@ -21,6 +21,10 @@
         height: 100%;
         width: 100%;
        background-color: #e4d2ac;
+       font-size: vw(24);
+    }
+    span{
+        font-size: vw(24);
     }
 }
 
@@ -74,6 +78,7 @@
     transition: 0.3s;
     &.active{
        color: #874a47;
+       font-weight: bold;
        &:after{
            position: absolute;
            content: '';
