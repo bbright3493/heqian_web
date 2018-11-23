@@ -204,12 +204,14 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .plr20 { padding-left: 2.6666666667vw; padding-right: 2.6666666667vw; }
 
-.bb { border-bottom: 1px solid #e1d3ac; }
+.bb { border-bottom: 1px solid #dcdbd8; }
 
-.warp { position: absolute; top: 0; bottom: 0; left: 0; right: 0; overflow: auto; }
+.warp { position: absolute; top: 0; bottom: 0; left: 0; right: 0; overflow: auto; z-index: 1; background: url("../img/bg-img.jpg") no-repeat; background-size: 25.2vw 32.4vw; background-position: bottom 10px right 10px; }
 
-.list-search { border-radius: 4vw; height: 8vw; background-color: #e4d2ac; overflow: hidden; }
-.list-search input { display: block; height: 100%; width: 100%; background-color: #e4d2ac; font-size: 3.2vw; }
+.warp-bg { position: absolute; top: 0; bottom: 0; left: 0; right: 0; overflow: auto; background-color: #fff; }
+
+.list-search { border-radius: 4vw; height: 8vw; background-color: #e6e6e6; overflow: hidden; }
+.list-search input { display: block; height: 100%; width: 100%; background-color: #e6e6e6; font-size: 3.2vw; }
 .list-search span { font-size: 3.2vw; }
 
 .c-606266 { color: #606266; }
@@ -234,9 +236,9 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .appointment { width: 13.3333333333vw; height: 13.3333333333vw; overflow: hidden; border-radius: 8vw; border: 1px solid #874a47; }
 
-.bg-e4d2ac { background-color: #e4d2ac; }
+.bg-e4d2ac { background-color: #e6e6e6; }
 
-.bg-fff6cf { background-color: #fff6cf; }
+.bg-fff6cf { background-color: #ffffff; }
 
 .bb-e1d3ac { border-bottom: 1px solid #e1d3ac; }
 
@@ -248,7 +250,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .tx-r { text-align: right; }
 
-.bg-f4e5bc { background: #f4e5bc; }
+.bg-f4e5bc { background-color: #ffffff; }
 
 .c-da9548 { color: #da9548; }
 
@@ -273,5 +275,9 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .fz100 { font-size: 13.3333333333vw; }
 
-.doc-info-img { width: 100%; min-height: 133.3333333333vw; background-color: #fff6cf; }
+.doc-info-img { width: 100%; min-height: 133.3333333333vw; background-color: #fff6cf; background: url("../img/border-bg.jpg") no-repeat; background-size: 100% 100%; }
 .doc-info-img img { width: 42.6666666667vw; min-height: 56vw; display: block; margin: 0 auto; background-color: #fff; }
+
+.plr60 { padding-left: 8vw; padding-right: 8vw; }
+
+.pt60 { padding-top: 8vw; }
