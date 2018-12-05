@@ -240,6 +240,7 @@
     height: vw(520);
     width: 100%;
     background: #eeeeee;
+    overflow: hidden;
     img {
         display: block;
         width: 100%;
@@ -301,8 +302,7 @@
     background-color: #eff0f2;
     color: #9196a9;
     font-size: vw(24);
-        padding:vw(5) vw(10);
-    
+    padding: vw(5) vw(10);
 }
 
 .poa-b0 {
@@ -313,7 +313,7 @@
 
 .new-doc-banner {
     width: 100%;
-        background-color: #f7ebdd;
+    background-color: #f7ebdd;
     padding: vw(40) vw(30);
     overflow: hidden;
     .new-doc-lis-img {
@@ -332,16 +332,15 @@
         border-radius: vw(20);
         background-color: #fef1e9;
         color: #f47c30;
-        padding:vw(5) vw(10);
+        padding: vw(5) vw(10);
         font-size: vw(24);
     }
     .new-doc-tag02 {
         border-radius: vw(20);
         background-color: #eff4fa;
         color: #5697cf;
-        padding:vw(5) vw(10);
+        padding: vw(5) vw(10);
         font-size: vw(24);
-        
     }
 }
 
@@ -352,11 +351,32 @@
 .bg-fef1e9 {
     background-color: #fef1e9;
 }
-.bgff{background-color: #ffffff;}
+
+.bgff {
+    background-color: #ffffff;
+}
+
 .open-info {
     height: vw(140);
     overflow: hidden;
-    &.active{
-       height: auto; 
+    &.active {
+        height: auto;
     }
+}
+
+.new-hospital-list-img {
+    width: vw(200);
+    height: vw(140);
+    border-radius: vw(20);
+    background-color: #f6f6f6;
+    overflow: hidden;
+    img: {
+        display: block;
+        width: 100%;
+        min-height: 100%;
+    }
+}
+.new-hospital-lis-item{
+    padding: vw(20) 0;
+    overflow: hidden;
 }
