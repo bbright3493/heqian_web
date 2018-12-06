@@ -173,7 +173,7 @@
 }
 
 .week-day-box,
-.doc-scheduling-container {
+.doc-scheduling-container,.new-book-container {
     display: none;
     &.active {
         display: block;
@@ -241,10 +241,15 @@
     width: 100%;
     background: #eeeeee;
     overflow: hidden;
+    position: relative;
     img {
         display: block;
         width: 100%;
         min-height: 100%;
+    }
+    .new-doc-pro-name{
+        position: absolute;bottom: vw(30);left: vw(30);right: vw(30);
+        font-size: vw(32);font-weight: bold;
     }
 }
 
@@ -379,4 +384,74 @@
 .new-hospital-lis-item{
     padding: vw(20) 0;
     overflow: hidden;
+}
+.pt100{
+    padding-top: vw(100);
+}
+.new-center-img{
+    width: vw(140);
+    height: vw(140);
+    border-radius: 100%;
+    overflow: hidden;
+    margin: vw(40) auto vw(20);
+    border: 1px solid #ffffff;
+    img{
+        display: block;
+        width: 100%;
+        min-height: 100%;
+    }
+}
+.new-center-info{
+    position: absolute;
+    top:vw(300);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border-top-left-radius: vw(50);
+    border-top-right-radius: vw(50);
+    
+}
+.c-c8{
+    color: #c8c8c8;
+}
+.new-bb{
+    border-bottom: 1px solid #ececec;
+}
+.c-9a9a9a{
+    color: #9a9a9a;
+}
+.c-f87b2b{
+    color: #f87b2b;
+}
+.c-8d8d8d{
+    color: #8d8d8d;
+}
+.new-book-tab {
+    position: relative;
+    transition: 0.3s;
+    span{
+        position: relative;
+        &.active {
+        color: #f87b2b;
+        font-weight: bold;
+        &:after {
+            position: absolute;
+            content: '';
+            left: 0;
+            bottom: vw(-20);
+            right: 0;
+            height: 2px;
+            border-radius: vw(2);
+            background-color: #f87b2b;
+        }
+    }
+    }
+    
+}
+.w180{
+    width: vw(150);
+}
+.dib{
+    display: inline-block;
 }
